@@ -12,6 +12,7 @@ namespace MCV.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+
     public class MoviesController : ControllerBase
     {
         private readonly MCVContext _context;
